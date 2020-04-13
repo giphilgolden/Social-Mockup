@@ -1,0 +1,16 @@
+header {
+    width: 850px;
+    height: 300px;
+    background-color: #5865a6;
+    margin: auto;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    background-color: #5865a6;
+    border: black 1px solid;
+    position: relative;
+    top: 180px;
+    left: 25px;
+}
