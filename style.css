@@ -1,3 +1,11 @@
+* {
+    background-color: #e9ebee;
+}
+
+button {
+    padding: 2px;
+}
+
 header {
     width: 850px;
     height: 300px;
@@ -11,6 +19,62 @@ header {
     background-color: #5865a6;
     border: black 1px solid;
     position: relative;
-    top: 180px;
-    left: 25px;
+    left: 2%;
+    top: 64%;
+    
+}
+
+.navbar {
+    width: 850px;
+    height: 58px;
+    background-color: white;
+    margin: auto;
+    
+}
+
+.Page-Name {
+    background-color: #5865a6;
+    position: relative;
+    top: 29%;
+    left: 22%;
+    color: white;
+    font-size: x-large;
+}
+
+.Website {
+    background-color: #5865a6;
+    position: relative;
+    top: 38%;
+    left: 3%;
+    color: white;
+    font-size: large;
+}
+
+.like-button-1 {
+   position: relative;
+   top: 37%;
+   left: 43%;
+}
+
+.message {
+    position: relative;
+    top: 37%;
+    left: 43.6%;
+    margin: 0px;
+}
+
+.follow {
+    color: gray;
+    position: relative;
+    top: 37%;
+    left: 44%;
+    padding-top: 3px;
+}
+
+.dotdotdot {
+    position: relative;
+    top: 37%;
+    left: 43.2%;
+    padding-top: 3px;
+
 }
