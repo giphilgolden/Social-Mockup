@@ -8,7 +8,7 @@ button {
 
 header {
     width: 850px;
-    height: 300px;
+    height: 200px;
     background-color: #5865a6;
     margin: auto;
 }
@@ -19,24 +19,16 @@ header {
     background-color: #5865a6;
     border: black 1px solid;
     position: relative;
-    left: 2%;
-    top: 64%;
-    
-}
-
-.navbar {
-    width: 850px;
-    height: 58px;
-    background-color: white;
-    margin: auto;
+    left: 16px;
+    top: 80px;
     
 }
 
 .Page-Name {
     background-color: #5865a6;
     position: relative;
-    top: 29%;
-    left: 22%;
+    top: -16px;
+    left: 180px;
     color: white;
     font-size: x-large;
 }
@@ -44,37 +36,240 @@ header {
 .Website {
     background-color: #5865a6;
     position: relative;
-    top: 38%;
-    left: 3%;
+    top: 12px;
+    left: 15px;
     color: white;
     font-size: large;
 }
 
+
+.button_group {
+    background-color: #5865a6;
+    display: inline;
+
+}
+
 .like-button-1 {
    position: relative;
-   top: 37%;
-   left: 43%;
+   top: 5px;
+   left: 366px;
+   display: inline;
 }
 
 .message {
     position: relative;
-    top: 37%;
-    left: 43.6%;
-    margin: 0px;
+    top: 5px;
+    left: 378px;
+    display: inline;
 }
 
 .follow {
     color: gray;
     position: relative;
-    top: 37%;
-    left: 44%;
+    top: 5px;
+    left: 381px;
     padding-top: 3px;
 }
 
 .dotdotdot {
     position: relative;
-    top: 37%;
-    left: 43.2%;
+    top: 5px;
+    left: 375px;
     padding-top: 3px;
 
+}
+
+.navbar {
+    width: 850px;
+    height: 47px;
+    background-color: white;
+    margin: auto;
+    
+}
+
+.inner-navbar {
+    position: relative;
+    top: 10px;
+    left: 170px;
+    background-color: white;
+}
+
+.Timeline, .About, .Welcome, .FWB, .More {
+    background-color: white;
+    border-right: lightgray 1px solid;
+    padding: 0px 1.4%;
+    font-size: large;
+}
+
+.Timeline {
+border-left: lightgrey 1px solid;
+}
+
+.Main-Body {
+
+    margin: 10px auto;
+    width: 850px;
+}
+
+.L_Column {
+    width: 328px;
+    height: 500px;
+    border: solid 2px black;
+    display: inline-block;
+    float: left;
+}
+
+.about-page-name {
+    width: 328px;
+    height: 186px;
+    border: solid 2px black;
+    background-color: white;
+}
+
+.P-Black {
+    margin-top: 21px;
+    padding-top: 7px;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    border-top: lightgrey 1px solid;
+    padding-left: 3%;
+}
+
+.P-Blue {
+    background-color: white;
+    color: #5865a6;
+    font-size: large;
+    border-bottom: lightgrey 1px solid;
+    padding-bottom: 11px;
+    padding-left: 10px;
+}
+
+.P-Blue-Two {
+    color: #5865a6;
+    font-size: larger;
+    position: relative;
+    top: -13px;
+    left: 10px;
+    display: inline;
+    background-color: white;
+}
+
+.R_Column {
+    width: 512px;
+    height: 500px;
+    border: black solid 2px;
+    display: inline-block;
+}
+
+.Your-Page-Name {
+    width: 512px;
+    height: 300px;
+    border: solid 2px black;
+    background-color: white;
+}
+
+.page-name-right {
+    background-color: white;
+}
+
+.page-name-right-bold {
+    background-color: white;
+    color: #5865a6;
+    font-weight: bold;
+}
+
+.changed_their {
+    color: black;
+    background-color: white;
+}
+
+.cover-photo-right  {
+    background-color: white;
+    color: #5865a6;
+}
+
+.page-name-right-top {
+    background-color: white;
+}
+
+.page-name-right-blue {
+    background-color: #5865a6;
+    width: 510px;
+    height: 202px;
+    margin: auto;
+}
+
+.page-name-right-bot {
+    background-color: white;
+}
+
+.page-name-right-bot ul li {
+    float: left;
+    background-color: white;
+    padding: 0px 2px;
+    list-style: none;
+    margin: 0px 1px;
+}
+
+.page-name-right-bot ul {
+    margin-top: 5px;
+    padding-top: 10px;
+    border-top: solid lightgrey 1px;
+    margin-bottom: 23px;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    display: table-footer-group;
+
+}
+
+#period1 {
+    font-size: 30px;
+    padding: 0px;
+    position: relative;
+    top: -15px;
+    left: -3;
+    height: 18px;
+    margin-right: 5px;
+    margin-left: -2px;
+}
+
+#period2 {
+    font-size: 30px;
+    padding: 0px;
+    position: relative;
+    top: -15px;
+    left: -3;
+    height: 18px;
+    margin-right: 5px;
+    margin-left: -2px;
+}
+
+.no-dot {
+    list-style: none;
+    margin-right: 0px;
+    margin-left: 1px;
+}
+
+.like1, .comment1, .share1 {
+    position: relative;
+    font-size: small;
+    color: #5865a6;
+    background-color: white;
+}
+
+.like1 {
+    left: 0px;
+    margin-right: 0px;
+}
+
+.comment1 {
+    left: -8px;
+    margin-right: -8px;
+}
+
+.share1 {
+    left: -7px;
 }
