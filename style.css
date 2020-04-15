@@ -20,7 +20,8 @@ header {
     border: black 1px solid;
     position: relative;
     left: 16px;
-    top: 80px;
+    top: 86px;
+    z-index: 1;
     
 }
 
@@ -84,6 +85,8 @@ header {
     height: 47px;
     background-color: white;
     margin: auto;
+    position: relative;
+    top: 20px;
     
 }
 
@@ -106,7 +109,8 @@ border-left: lightgrey 1px solid;
 }
 
 .Main-Body {
-
+    position: relative;
+    top: 55px;
     margin: 10px auto;
     width: 850px;
 }
@@ -191,14 +195,28 @@ border-left: lightgrey 1px solid;
 
 .small-blue-right {
     background-color: #5865a6;
-    height: 35px;
-    width: 35px;
+    height: 25px;
+    width: 25px;
     position: relative;
     float: left;
+    left: -5px;
+    top: 7px;
+}
+
+.mins-ago {
+    background-color: white;
+    position: relative;
+    top: -13px;
+    left: 26px;
 }
 
 .page-name-right-top {
     background-color: white;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    width: 490px;
+    height: 36px;
 }
 
 .page-name-right-blue {
