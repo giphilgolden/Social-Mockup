@@ -189,6 +189,14 @@ border-left: lightgrey 1px solid;
     color: #5865a6;
 }
 
+.small-blue-right {
+    background-color: #5865a6;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    float: left;
+}
+
 .page-name-right-top {
     background-color: white;
 }
@@ -202,6 +210,9 @@ border-left: lightgrey 1px solid;
 
 .page-name-right-bot {
     background-color: white;
+    border-bottom: solid lightgrey 1px;
+    z-index: 2;
+    height: 6px;
 }
 
 .page-name-right-bot ul li {
@@ -215,7 +226,6 @@ border-left: lightgrey 1px solid;
 .page-name-right-bot ul {
     margin-top: 5px;
     padding-top: 10px;
-    border-top: solid lightgrey 1px;
     margin-bottom: 23px;
     background-color: white;
     position: relative;
@@ -231,9 +241,10 @@ border-left: lightgrey 1px solid;
     position: relative;
     top: -15px;
     left: -3;
-    height: 18px;
+    height: 1px;
     margin-right: 5px;
     margin-left: -2px;
+    z-index: 1;
 }
 
 #period2 {
@@ -242,7 +253,7 @@ border-left: lightgrey 1px solid;
     position: relative;
     top: -15px;
     left: -3;
-    height: 18px;
+    height: 1px;
     margin-right: 5px;
     margin-left: -2px;
 }
