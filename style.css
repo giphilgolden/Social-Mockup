@@ -169,6 +169,55 @@ border-left: lightgrey 1px solid;
 
 }
 
+.about-top {
+    border-bottom: 1px lightgrey solid;
+    height: 33px;
+}
+
+.about-mid {
+    border-bottom: 1px lightgrey solid;
+    height: ;
+}
+
+.about1 {
+    background-color: white;
+    position: relative;
+    top: 9px;
+    left: 15px;
+}
+
+.about-arrow {
+    position: relative;
+    left: 242px;
+    top: 7px;
+    background-color: white;
+    color: gray;
+}
+
+.Your-adress {
+    position: relative;
+    top: 12px;
+    left: 13px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.city-country {
+    width: 150px;
+    position: relative;
+    top: -15px;
+    color: grey;
+}
+
+.phone-number {
+    color: #5865a6;
+    position: relative;
+    top: 11px;
+    left: 9px;
+    font-weight: bold;
+    background-color: white;
+}
+
 .about-address-number div {
     background-color: white;   
 }
