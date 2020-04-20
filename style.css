@@ -108,6 +108,16 @@ header {
 border-left: lightgrey 1px solid;
 }
 
+.blueLine {
+    border-top: #5865a6 3px solid;
+    height: 1px;
+    width: 65px;
+    position: relative;
+    top: 15px;
+    left: 183px;
+
+}
+
 .Main-Body {
     position: relative;
     top: 55px;
